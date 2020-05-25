@@ -3,58 +3,58 @@
   <div class="home-side">
       <div class="title">后台管理系统</div>
     <el-menu
-      default-active="/home"
+      default-active="/homepage"
       background-color="#001529"
       text-color="#ccc"
       router
       active-text-color="#fff">
 
-      <el-menu-item index="/home">
+      <el-menu-item index="/homepage">
         <i class="el-icon-menu"></i>
         <span slot="title">首页</span>
       </el-menu-item>
 
-       <el-submenu index="back">
+       <el-submenu index="1">
         <span slot="title">
           <i class="el-icon-menu"></i>后台管理</span>
-          <el-menu-item index="user">用户管理</el-menu-item>
-          <el-menu-item index="role">角色管理</el-menu-item>
-          <el-menu-item index="limit">权限管理</el-menu-item>
-          <el-menu-item index="menu">菜单管理</el-menu-item>
+          <el-menu-item index="/user">用户管理</el-menu-item>
+          <el-menu-item index="/role">角色管理</el-menu-item>
+          <el-menu-item index="/limit">权限管理</el-menu-item>
+          <el-menu-item index="/menu">菜单管理</el-menu-item>
        </el-submenu>
 
-        <el-submenu index="3">
+        <el-submenu index="2">
         <span slot="title">
           <i class="el-icon-menu"></i>货主管理</span>
-          <el-menu-item index="3-1">货主查询</el-menu-item>
-          <el-menu-item index="3-2">实名审核</el-menu-item>
+          <el-menu-item index="/user-query">货主查询</el-menu-item>
+          <el-menu-item index="/name-check">实名审核</el-menu-item>
        </el-submenu>
 
         <el-submenu index="4">
         <span slot="title">
           <i class="el-icon-menu"></i>司机管理</span>
-          <el-menu-item index="4-1">司机查询</el-menu-item>
-          <el-menu-item index="4-2">司机审核</el-menu-item>
-          <el-menu-item index="4-3">车辆审核</el-menu-item>
+          <el-menu-item index="/dirver-query">司机查询</el-menu-item>
+          <el-menu-item index="/dirver-check">司机审核</el-menu-item>
+          <el-menu-item index="/car-check">车辆审核</el-menu-item>
        </el-submenu>
 
         <el-submenu index="5">
         <span slot="title">
           <i class="el-icon-menu"></i>tms运单管理</span>
-          <el-menu-item index="5-1">运单查询</el-menu-item>
-          <el-menu-item index="5-2">tms运单导入</el-menu-item>
-          <el-menu-item index="5-3">开发票</el-menu-item>
+          <el-menu-item index="/waybill-query">运单查询</el-menu-item>
+          <el-menu-item index="/waybill-import">tms运单导入</el-menu-item>
+          <el-menu-item index="/invoice">开发票</el-menu-item>
        </el-submenu>
 
         <el-submenu index="6">
         <span slot="title">
           <i class="el-icon-menu"></i>运单管理</span>
-          <el-menu-item index="5-1">运单查询</el-menu-item>
-          <el-menu-item index="5-2">运单统计</el-menu-item>
-          <el-menu-item index="5-3">运单导入</el-menu-item>
+          <el-menu-item index="/waybill-query1">运单查询</el-menu-item>
+          <el-menu-item index="/waybill-statistic1">运单统计</el-menu-item>
+          <el-menu-item index="/waybill-import1">运单导入</el-menu-item>
        </el-submenu>
 
-        <el-menu-item index="7">
+        <el-menu-item index="/dispatch-bill">
         <i class="el-icon-menu"></i>
         <span slot="title">发货管理</span>
       </el-menu-item>
@@ -62,14 +62,14 @@
         <el-submenu index="8">
         <span slot="title">
           <i class="el-icon-menu"></i>结算管理</span>
-          <el-menu-item index="8-1">退款查询</el-menu-item>
-          <el-menu-item index="8-2">收入查看</el-menu-item>
-          <el-menu-item index="8-3">提现管理</el-menu-item>
-          <el-menu-item index="8-4">结算查询</el-menu-item>
-          <el-menu-item index="8-4">钱包管理</el-menu-item>
+          <el-menu-item index="/refund-query">退款查询</el-menu-item>
+          <el-menu-item index="/income-query">收入查看</el-menu-item>
+          <el-menu-item index="/deposit-admin">提现管理</el-menu-item>
+          <el-menu-item index="/account-query">结算查询</el-menu-item>
+          <el-menu-item index="/money-admin">钱包管理</el-menu-item>
        </el-submenu>
 
-          <el-menu-item index="9">
+          <el-menu-item index="/invoice-admin">
         <i class="el-icon-menu"></i>
         <span slot="title">发票管理</span>
       </el-menu-item>

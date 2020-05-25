@@ -32,5 +32,10 @@ export default {}
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #ccc;
+
+}
+.main{
+  margin: 0;
+  padding: 0;
 }
 </style>

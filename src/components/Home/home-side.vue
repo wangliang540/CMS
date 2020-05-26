@@ -3,13 +3,13 @@
   <div class="home-side">
       <div class="title">后台管理系统</div>
     <el-menu
-      default-active="/homepage"
+      default-active="/home"
       background-color="#001529"
       text-color="#ccc"
       router
       active-text-color="#fff">
 
-      <el-menu-item index="/homepage">
+      <el-menu-item index="/home">
         <i class="el-icon-menu"></i>
         <span slot="title">首页</span>
       </el-menu-item>

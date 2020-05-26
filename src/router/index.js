@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '../views/login'
+import Homepage from '../components/Home/home-page.vue'
 
 Vue.use(VueRouter)
 
@@ -141,16 +142,9 @@ const routes = [{
                     import ('../components/Account/refund-query.vue')
             },
             {
-                path: '/homepage',
-                name: 'homepage',
-                component: () =>
-                    import ('../components/Home/home-page.vue')
-            },
-            {
                 path: '/',
                 name: 'homepage',
-                component: () =>
-                    import ('../components/Home/home-page.vue')
+                component: Homepage
             },
 
             {

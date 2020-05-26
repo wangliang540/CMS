@@ -1,6 +1,10 @@
 <template>
   <div>
-      <h1>菜单列表</h1>
+    <break-crumb>
+      <template slot='title'>
+          菜单列表
+      </template>
+    </break-crumb>
   </div>
 </template>
 

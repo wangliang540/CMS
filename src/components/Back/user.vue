@@ -1,7 +1,10 @@
 <template>
   <div>
-      <div id="charts" style="width:'100%',height:'580px'"></div>
-  <div id="main" :style="{width:'100%',height:'580px'}"></div>
+    <break-crumb>
+      <template  slot='title'>用户管理</template>
+    </break-crumb>
+  <div id="charts" style="width:'100%',height:'530px'"></div>
+  <div id="main" :style="{width:'100%',height:'530px'}"></div>
   </div>
 </template>
 

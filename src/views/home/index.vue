@@ -34,8 +34,4 @@ export default {}
   border-bottom: 1px solid #ccc;
 
 }
-.main{
-  margin: 0;
-  padding: 0;
-}
 </style>

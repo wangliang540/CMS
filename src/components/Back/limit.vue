@@ -1,6 +1,9 @@
 <template>
   <div>
-      <h1>权限管理</h1>
+    <break-crumb>
+    <template slot='title'>权限管理</template>
+    </break-crumb>
+      
   </div>
 </template>
 
